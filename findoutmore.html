@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Find out more - Chollerton Tearooms</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="theCSS.css">
+</head>
+<body>
+<!-- This is the header. The header consists of the website's logo and the navigation bar. -->
+<header>
+  <h1 class="Color1">Chollerton</h1>
+  <h1 class="Color2">Tearooms</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="findoutmore.html">Find out more</a></li>
+      <li><a href="admin.php">Admin</a></li>
+      <li><a href="credits.html">Credits</a></li>
+      <li><a href="Wireframe.pdf">Wireframe</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <p class="textBelowBanner">. . . . . . . . . . . . . . .<br>
+  </p>
+  <form class="the-form" action="/addnewrecord.php" method="get" autocomplete="off">
+    <h2 class="get-in-touch">Get in touch!</h2>
+    <!-- --- The registration form --- -->
+    <p>Interested in Chollerton Tearooms? Just fill in your details below and we will get in contact with you as soon as possible!<br>
+      <br>
+    </p>
+	  <p id="small-text">Fields with asterisks(*) are required.</p>
+	  Forename:<span class="required">*</span>
+    <input type="text" name="forename" maxlength="20" required>
+    <br>
+    Surname:<span class="required">*</span>
+    <input type="text" name="surname" maxlength="20" required>
+    <br>
+    E-mail address:
+    <input type="email" name="email">
+    <br>
+    Landline telephone number:
+    <input type="number" name="landline" value="0191">
+    <br>
+    Mobile telephone number:
+    <input type="number" name="mobile" value="07">
+    <br>
+    Postal Address:
+    <input type="text" name="postaladdress" minlength="4">
+    <br>
+    Facility interested in:
+    <select name ="facility" id="facility">
+      <option disabled>Please select one of the following:</option>
+      <option value="c5">Bed and Breakfast</option>
+      <option value="c2">Craft Shop</option>
+      <option value="c4">Post Office</option>
+      <option value="c1">Tearoom</option>
+      <option value="c3">Village Store</option>
+    </select>
+    <br>
+    Preferred method of contact:<span class="required">*</span>
+    <input type="radio" name="contact" value="email">
+    Email
+    <input type="radio" name="contact" value="SMS">
+    SMS
+    <input type="radio" name="contact" value="post">
+    Post <br>
+    <input type="submit" value="Submit ➡">
+    <input type="reset">
+  </form>
+  <p class="textBelowBanner">. . . . . . . . . . . . . . .<br>
+  </p>
+  <!-- --- The footer --- -->
+  <p class="otherFooter"> &copy; Copyright 2019 Chollerton Tearooms <br>
+    Website created by Panayiotis Petsas</p>
+</main>
+</body>
+</html>

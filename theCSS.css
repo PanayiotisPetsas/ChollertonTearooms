@@ -1,0 +1,539 @@
+/* CSS Document */
+
+/* The body. The setup for the whole webpage. 
+These values may change depending on other 
+		selectors down below. */
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0px;
+	background-color: #ffffff;
+	color: #808080;
+	line-height: 1.5;
+}
+
+/* The two main colors that the website 
+			will be using. */
+.Color1{
+	color: #FF5D71;
+	font-style: normal; 
+}
+
+.Color2{
+	color: #e04c56;
+	font-style: normal; 
+}
+
+/*The header */
+header{
+	display: flex;
+    flex-direction: row;
+	margin: 0;
+	padding: 10px 0px 0px 8px;
+	border-style: solid;
+	border-left:none;
+	border-right:none;
+	border-top:none;	
+	border-bottom-color: #dedcdb;
+	border-width: 1px;
+}
+
+h1{
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+
+/* The navivation bar,
+which is inside the header. */
+ul{
+	transform: translateY(25%);
+ 	list-style-type: none;
+    margin: 0;
+	padding-left: 0.5cm;
+	padding-right: 0.5cm;
+    overflow: hidden;
+}
+
+li{
+	font-size: 13.5px;
+	display: inline;
+	color: #000000;
+	color: #808080;
+	padding: 0px 15px;
+	text-decoration: none;
+}
+
+li a{
+	color: #808080;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: #000000;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-bottom-color: lightcoral;
+}
+
+li a:active{
+	color: #000000;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-bottom-color: lightcoral;
+
+}
+
+/*End of the header. 
+	The banner    */
+#HeaderImage h2{
+	position:relative;
+	font-family: 'Raleway', sans-serif;
+	border: solid 1px #FFFFFF;
+	padding: 2% 10%;  
+	margin: 7% 8% -15%;
+	bottom: 16em;	
+	color: #000000;
+	text-align: center;
+	opacity: 1.0;
+}
+
+#HeaderImage h2 :hover{
+	opacity: 0.6;
+}
+
+#HeaderImage img{
+	position: relative;
+	width: 100%;
+	height: 50%; 
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+	background-color: #ffffff;
+	border: solid 5px #ffffff;
+}
+
+/* End of the banner.
+ The main section. */
+p{
+	margin: 2px 5% 0px;
+	text-align: center;
+}
+
+.TextImageFirst{
+	float: left;
+	margin: 45px 2% 35px 15%; 
+}
+
+.descImage img{
+	float: left;
+	width:auto;
+	height:25em;
+}
+
+#infoText{
+	margin-top: 1%;
+	margin-left: 2%;
+	background: #FFFFFF;
+	float: left;
+	width: 50%;
+}
+
+h3{
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	margin-left: 4%;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #FF5D71;
+	font-size: 15px;
+}
+
+#infoText p{
+	text-align: left;
+}
+
+/* This is the underline for the h3. */
+.line{
+	position: relative;
+	margin-left: 4%;
+	width: 20%;
+	left: 0.3em;
+	bottom: 0.5em;
+	border-bottom: 2px solid #FF5D71;
+}
+
+
+.TextImageSecond{
+	float: left;
+	margin: 45px 2% 35px 15% ; 
+}
+
+#christmasText{
+	margin-top: 1%;
+	margin-right: 2%;
+	background: #FFFFFF;
+	float: left;
+	width: 50%;
+}
+
+#christmasText p{
+	text-align: left;
+}
+
+/* End of main section.
+  This is the footer. */
+footer{
+	background: #454545;
+	clear:left;
+	line-height:35px;
+		margin: 0px;
+
+}
+
+#footerText{
+	width: 90%;
+	text-align: center;
+  	position: relative;
+  	font-size: 12px;
+}
+
+
+h4{
+	text-align: center;
+	color: #e04c56;
+	text-decoration: underline;
+
+}
+/*  End of footer.
+   The media queries. 
+   Done so the website
+	will not break on 
+   smaller screens. */
+
+
+/* ----------------------------------- V FIND OUT MORE page CSS V -------------------------------------------- */
+
+.required{
+	color: #e04c56;
+	font-size: 15px;
+	text-align: left;
+}
+
+.textBelowBanner{
+	margin-top: 0px;
+	padding-top: 0.5%;
+	color: #ffffff;
+	user-select: none;
+}
+.get-in-touch{
+	font-size: 30px;
+	text-align:center;
+	color: #000000;
+	border-radius: 15px;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-weight: bolder;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.the-form{
+	border-radius: 20px;
+	padding-top: 7px;
+	margin: 15px 35% 0px 35%;
+	background: #FFFFFF;
+	padding: 2%;
+	
+}
+
+main{
+	  background-image: linear-gradient(to bottom right, #FFC0CB, #e04c56);
+	padding-bottom: 1%;
+}
+
+input[type="text"],input[type="email"],input[type="number"], #facility {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	padding: 12px 20px;
+ 	margin: 8px 0;
+    box-sizing: border-box;
+	border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	border-radius: 5px;
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="number"]:focus, #facility:hover {
+  	border: 3px solid #FF5D71;
+}
+
+input[type=submit],input[type=reset]{	
+	margin-top: 5%;
+	font-size: 15px;
+    background-image: linear-gradient(to bottom right, #FF5D71, #FE4A4A);
+  	border: none;
+  	color: #FFFFFF;
+	padding: 2% 8%;
+	border-radius: 8px 30px 8px 30px;
+	width: 30%;
+	margin-left: 9%;
+	margin-right: 10%;
+
+}
+
+input[type=submit]:hover,input[type=reset]:hover{	
+	background :  linear-gradient(to bottom right, #000000, #808080);
+	color: #FFFFFF;
+    
+}
+
+.otherFooter{
+	margin-top: 10px;
+	font-size: 10px;
+	opacity: 0.5;
+	color: #ffffff;
+}
+
+#addRecordBox{
+	background: #FFFFFF;
+	border-radius: 15px;
+	color: #808080;
+	margin: 0% 18%;
+	padding-bottom: 1%;
+
+}
+
+#your-detailsB{
+	color:#333333;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+#small-text{
+	margin-top:-3%;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.go-back{
+    color: #FFFFFF;
+	text-align: center;
+}
+
+.go-back a:visited{
+    color: #FFFFFF;
+	text-align: center;
+
+}
+.go-back a:hover{
+    color: #191919;
+	text-align: center;
+
+}
+
+/*-------------------------------- ^ FIND OUT MORE page CSS ^ -------------------------------------------- */
+
+
+/*----------------------------------------- v ADMIN page CSS v ------------------------------------------------ */
+
+#your-details{
+	color:#FFFFFF;
+	text-align: center;
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 1%;
+
+}
+
+.confpage{
+	padding-top: 3%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+	color: #FFFFFF;
+
+
+}
+
+.php-image{
+	width: 60%;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 25cm;
+}
+
+ td, tr{
+	padding: 5px 15px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+th{
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding: 5px 15px;	
+
+}
+
+table{
+	margin: 2% 15%;
+	border-collapse:collapse;
+  	border-radius: 1em;
+  	overflow: hidden;
+
+}
+
+table tr{
+	
+	border-bottom: 1px solid #EDEDED;
+	background-color: #FFFFFF;
+}
+
+.admin-table{
+	padding-bottom: 1%;
+
+}
+
+.main-admin{
+    background-image: linear-gradient(to bottom right, #FFC0CB, #e04c56);
+
+}
+
+
+
+/*----------------------------------------- ^ ADMIN page CSS ^ ------------------------------------------------ */
+
+
+#main-admin{
+	padding: 2% 0%;
+	color: #808080;
+    background-image: linear-gradient(to bottom right, #FFC0CB, #e04c56);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+
+.gradient-text{
+	-webkit-transition: 0.5s;
+    transition: 0.5s;
+	text-align: center;
+	margin: 0px;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 45px;
+    background: -webkit-linear-gradient(#545454,#333333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	
+}
+
+.credits-section{
+	padding: 1.5%; 
+	margin: 1% 15% 0%;
+	background: #FFFFFF;
+	border-radius: 15px;
+
+	
+}
+
+.references{
+	text-align: left;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1435px)
+{
+
+	.the-form{
+	border-radius: 20px;
+	padding-top: 7px;
+	margin: 15px 25% 0px 25%;
+	background: #FFFFFF;
+	padding: 2%;
+	
+	}
+}	
+
+
+@media only screen and (max-width: 1275px)
+{
+	#infoText{
+		width: 40%;
+	}
+	
+	#christmasText{
+		width: 40%;
+	}
+	
+	.descImage img{
+	height:20em;
+	}
+}	
+
+@media only screen and (max-width: 870px)
+{
+	#infoText{
+		width: 45%;
+	}
+	
+	#christmasText{
+		width: 45%;
+	}
+	
+	.descImage img{
+		height:15em;
+	}
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+@media only screen and (max-width: 850px) 
+{	
+	header{
+	display: flex;
+    flex-direction: row;
+	margin: 0;
+	padding: 15px 0px 10px 8px; /* padding gets bigger */
+	border-style: solid;
+	border-left:none;
+	border-right:none;
+	border-top:none;	
+	border-bottom-color: #dedcdb;
+	border-width: 1px;
+	box-shadow: 0px 1px 10px #dbdbdb;
+}
+	#HeaderImage h2{		/* once the resolution gets small enough, the text in the banner goes down to the bottom in a pink colour. */
+    position:relative; 
+	font-family: 'Raleway', sans-serif;
+	border: none;
+	padding: 0% 0%;  
+	margin: 0%;
+	bottom: 0px;	
+	text-align: center;
+	opacity: 1.0;
+	color: #FF5D71;
+    }
+	
+	#HeaderImage h2:hover{
+	color: #e04c56;
+	opacity:inherit;
+	}
+	
+	.empty-space{
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+}
